@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RSS Feed Reader 2</string>
+    <string name="action_location_found">Action Location</string>
+    <string name="action_search">Action Searcg</string>
+    <string name="action_refresh">Action Refresh</string>
+    <string name="action_help">Action Help</string>
+    <string name="action_check_updates">Check Updates</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_rss_site">Add RSS site</string>
+    <string name="create_collection">Create collection</string>
+    <string name="spinner_title">Select Category</string>
+</resources>

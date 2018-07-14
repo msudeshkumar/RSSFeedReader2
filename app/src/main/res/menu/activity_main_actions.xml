@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Search / will display always -->
+    <item android:id="@+id/add_rss_site"
+        android:icon="@drawable/ic_plus_circle_outline"
+        android:title="@string/add_rss_site"
+        app:showAsAction="always"
+        />
+        <!--android:showAsAction="always"/>-->
+
+    <!-- Location Found -->
+    <item android:id="@+id/add_collection"
+        android:icon="@drawable/ic_folder_plus"
+        android:title="@string/create_collection"
+        android:iconTint="#FFF"
+        app:showAsAction="always"
+        />
+    <!--android:showAsAction="always"/>-->
+
+    <!-- Refresh -->
+    <item android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_archive_black_24dp"
+        android:title="@string/action_refresh"
+        app:showAsAction="ifRoom"
+        />
+    <!--android:showAsAction="always"/>-->
+
+    <!-- Help -->
+    <item android:id="@+id/action_help"
+        android:icon="@drawable/ic_apps_black_24dp"
+        android:title="@string/action_help"
+        app:showAsAction="never"
+        />
+    <!--android:showAsAction="always"/>-->
+
+    <!-- Check updates -->
+    <item android:id="@+id/action_check_updates"
+        android:icon="@drawable/ic_apple"
+        android:title="@string/action_check_updates"
+        android:iconTint="@color/colorAccent"
+        app:showAsAction="never"
+        />
+    <!--android:showAsAction="always"/>-->
+</menu>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical"
+    tools:context=".Add_Site_Dialog"
+    android:padding="5dp"
+    android:layout_margin="5dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_site_dialog_textView1"
+        android:text="Add Site"
+        android:textSize="20sp"
+        android:textColor="@color/colour_black"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="RSS Link"
+        android:textColorHint="@color/colour_black"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_site_dialog_editText1"
+            android:textColorHint="@color/colour_black"
+            android:textColor="@color/colour_black"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/add_site_dialog_textView2"
+                android:text="Choose category"
+                android:textColor="@color/colour_black"
+                android:textSize="20sp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/add_site_dialog_textView3"
+                    android:textColor="@color/colour_black"
+                    android:textSize="15sp"
+                    android:layout_weight="3"
+                    />
+
+                <Spinner
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:prompt="@string/spinner_title"
+                    android:backgroundTint="@color/colour_black"
+                    android:id="@+id/add_site_dialog_spinner1"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/add_site_dialog_button2"
+                android:background="@color/colorPrimary"
+                android:text="Cancel"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/add_site_dialog_button1"
+                android:background="@color/colorPrimary"
+                android:text="Add"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
